@@ -1,10 +1,7 @@
-from rich.console import Console
-from rich.prompt import Prompt
 from pathlib import Path
 
 import os
 import shutil
-import re
 
 def create_folder(folder_name):
     """Create a folder with the specified name."""
